@@ -1,0 +1,19 @@
+{
+  "name": "is-site-down-cli",
+  "version": "0.0.1",
+  "description": "a CLI to check if a website is down for everyone",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/anubhavsrivastava/is-site-down-cli.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/anubhavsrivastava/is-site-down-cli/issues"
+  },
+  "homepage": "https://github.com/anubhavsrivastava/is-site-down-cli#readme"
+}
