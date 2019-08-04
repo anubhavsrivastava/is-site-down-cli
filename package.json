@@ -7,7 +7,7 @@
 		"test": "echo \"Error: no test specified\" && exit 1"
 	},
 	"bin": {
-		"is-site-down": "cli.js"
+		"issitedown": "cli.js"
 	},
 	"files": [
 		"cli.js"
@@ -34,7 +34,7 @@
 	},
 	"homepage": "https://github.com/anubhavsrivastava/is-site-down-cli#readme",
 	"dependencies": {
-		"is-site-down": "^1.0.0",
+		"is-site-down": "^2.0.1",
 		"meow": "^5.0.0",
 		"update-notifier": "^3.0.1"
 	}
