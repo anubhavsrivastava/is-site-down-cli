@@ -1,6 +1,6 @@
 {
 	"name": "is-site-down-cli",
-	"version": "0.0.2",
+	"version": "1.0.0",
 	"description": "a CLI to check if a website is down for everyone",
 	"main": "index.js",
 	"scripts": {
