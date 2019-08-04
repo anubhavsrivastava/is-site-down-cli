@@ -1,19 +1,41 @@
 {
-  "name": "is-site-down-cli",
-  "version": "0.0.1",
-  "description": "a CLI to check if a website is down for everyone",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/anubhavsrivastava/is-site-down-cli.git"
-  },
-  "author": "",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/anubhavsrivastava/is-site-down-cli/issues"
-  },
-  "homepage": "https://github.com/anubhavsrivastava/is-site-down-cli#readme"
+	"name": "is-site-down-cli",
+	"version": "0.0.1",
+	"description": "a CLI to check if a website is down for everyone",
+	"main": "index.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"bin": {
+		"is-site-down": "cli.js"
+	},
+	"files": [
+		"cli.js"
+	],
+	"engines": {
+		"node": ">=8"
+	},
+	"keywords": [
+		"cli",
+		"is-site-down",
+		"monitoring"
+	],
+	"author": {
+		"name": "Anubhav Srivastava",
+		"email": "anubhav.srivastava00@gmail.com"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/anubhavsrivastava/is-site-down-cli.git"
+	},
+	"license": "MIT",
+	"bugs": {
+		"url": "https://github.com/anubhavsrivastava/is-site-down-cli/issues"
+	},
+	"homepage": "https://github.com/anubhavsrivastava/is-site-down-cli#readme",
+	"dependencies": {
+		"is-site-down": "^1.0.0",
+		"meow": "^5.0.0",
+		"update-notifier": "^3.0.1"
+	}
 }
