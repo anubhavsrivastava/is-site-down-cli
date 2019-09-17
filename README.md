@@ -35,6 +35,7 @@ $ issitedown node cli.js --help
 ### Related Module
 
 -   [is-site-down](https://github.com/anubhavsrivastava/is-site-down) Checks if a website is down for rest of world
+-   [blame-my-network](https://github.com/anubhavsrivastava/blame-my-network) - Check whether a website is up or down only for your network
 
 ### Contribution
 
